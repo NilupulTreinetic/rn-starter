@@ -8,9 +8,9 @@ import ImageScreen from "./src/screens/ImageScreen";
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
-    Component:ComponentScreen,
+    Component: ComponentScreen,
     List: ListScreen,
-    Image: ImageScreen
+    Image: ImageScreen,
   },
   {
     initialRouteName: "Home",
